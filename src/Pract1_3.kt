@@ -10,7 +10,7 @@ fun main(){
     println("Student Branch:")
     val branch: String=readLine().toString()
     println("Student Class:")
-    val classname: String=readLine().toString()
+    val classname: String?= readLine().toString()
     println("Student Batch:")
     val batch: String=readLine().toString()
     println("Collage Name:")
@@ -28,8 +28,8 @@ fun main(){
     println("University Name:"+university)
 
 
-    var s_name: String? = "23"
+    //var s_name: String? = "23"
     //s_name = "23"
-    val kal :Int= s_name!!.toInt()
-    println(kal)
+    //val kal :Int= s_name!!.toInt()
+    //println(kal)
 }
