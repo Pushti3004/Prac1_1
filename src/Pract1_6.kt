@@ -1,6 +1,3 @@
-import jdk.incubator.vector.Float16.divide
-import jdk.incubator.vector.Float16.multiply
-
 fun main(){
     val a= 222
     val b= 111
